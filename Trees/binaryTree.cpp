@@ -106,8 +106,8 @@ int main(){
     for (int key : keys){
         insertKey(root, key);
     }
-    inorder(root);
-    // preorder(root);
+    // inorder(root);
+    preorder(root);
     displayRoot(root);
     bool res = lookupIterative(root,12,0);
     lookupRecursive(root,10);
